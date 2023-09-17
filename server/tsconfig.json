@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+      "target": "es6",                          // Target ECMAScript version
+      "module": "commonjs",                     // Specify module code generation
+      "outDir": "./out",                        // Output directory for compiled files
+      "rootDir": "./",                          // Root directory of input files
+      "strict": true,                           // Enable strict type checking
+      "esModuleInterop": true,                  // Enables CommonJS/AMD/UMD module interop
+      "skipLibCheck": true,                     // Skip type checking for declaration files
+      "forceConsistentCasingInFileNames": true  // Disallow inconsistently-cased references to the same file
+    },
+    "exclude": [
+      "node_modules"   // Exclude node_modules from compilation
+    ]
+  }
+  

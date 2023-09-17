@@ -1,0 +1,25 @@
+{
+  "name": "codechat",
+  "displayName": "CodeChat",
+  "description": "Utilizing Language models to develop large codebases",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.82.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "python",
+      "aliases": ["python", "python"],
+      "extensions": [".py"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "python",
+      "scopeName": "source.python",
+      "path": "./syntaxes/python.tmLanguage.json"
+    }]
+  }
+}
